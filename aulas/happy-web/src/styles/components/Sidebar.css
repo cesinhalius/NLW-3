@@ -1,0 +1,44 @@
+:root{
+  --background:linear-gradient(329.54deg, #c94b4b 0%, #4b134f 100%);
+}
+
+.app-sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: var(--background);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-sidebar img {
+  width: 48px;
+}
+
+.app-sidebar footer a,
+.app-sidebar footer button {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  background:var(--background);
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 5s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.app-sidebar footer a:hover,
+.app-sidebar footer button:hover {
+  background:var(--background);
+}
